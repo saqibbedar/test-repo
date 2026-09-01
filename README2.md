@@ -1,3 +1,0 @@
-# TESTING BRANCHES
-
-Hello, world!
