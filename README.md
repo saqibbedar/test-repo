@@ -1,13 +1,51 @@
 ## Test Repository (Practice Room)
 
-Welcome to the testing repository, in this repo I learn GitHub by testing different git commands. You are also welcome to give a try to learn a open source contribution by contributing to this repo or perform any sort of testing. You can try anything like creating branches, deleting them, submitting pull request, deleting files or adding any new. So, whatever mess you can make do in this repo its a learning repository. Think it like a playground for learning from mistakes. Yes! Mistakes do teach you a lot. So, don't wait any further. Let's get started 🚀!!!
+Test repository is a dedicated repository for my personal learning. Whenever, I need to do any experiment I do it using this repository. So, question must be, how this can be useful to you, right? Well, this is useful to you because you are allowed to do practice with it and I will accept your any change, even simple whitespace. Hence, you can practice opensource, branches, PR's and a lot of other git and github stuff.
 
-## Get Started
+# Get Started
 
 1. Clone this repository:  
 
     ```bash
     git clone https://github.com/saqibbedar/test-repo.git
-    cd test-repo && code .            # change dir and open vscode
+    cd test-repo && code .            # change dir and open it in the vscode
     ```
-That's all setup. Starting doing the shit whole terrain is yours!!! And push your changes, let me see check them what you got!!! 😂!!!
+
+# Contribution
+
+I welcome any sort of contribution, as stated above, even your whitespace is acceptable, so no worries for merge. Come and do it, the repo is yours.
+
+To get started properly:
+
+1. You need to fork this repository (fork means get a copy of this repository and share it on your personal account, just like how we do reshare posts on facebook, linkedin etc). 
+
+2. Clone your forked repository: 
+
+    ```bash
+    git clone https://github.com/<your-username>/test-repo.git 
+    cd test-repo && code .      # cd into test-repo and open vscode init
+    ```
+
+3. Setup upstream:
+
+    ```bash
+    git remote add upstream https://github.com/saqibbedar/test-repo.git
+    ```
+
+4. Create branch:
+
+    ```bash
+    git switch -c <branch-name>
+    ```
+
+5. Stage, commit and push your changes:
+
+    ```bash
+    git add <file-or-directory>
+    git commit -m "commit message"
+    push --set-upstream origin <branch-name>
+    ```
+
+6. Open a pull request from your fork's branch to original repository's main branch.
+
+For detailed guideline on opensource contribution workflow [read this article](https://saqibbedar.github.io/gitcraft/opensrc-workflow/).
